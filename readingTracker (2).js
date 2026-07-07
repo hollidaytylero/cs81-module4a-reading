@@ -72,5 +72,5 @@ printDailySummary(readingLog);
 console.log("Total minutes read:", totalReadingMinutes(readingLog));
 console.log("Most read book:", mostReadBook(readingLog));
 
-Suggestion for Improvement: 
-Test Case: 
+Suggestion for Improvement: Create a function that calculates the average number of minutes read per day. This would give us more information on what days the person reads more (i.e. weekend vs weekday).
+Test Case: Add in a book that has never been used before. This would test to see if the program correctly stores the new book and recalculates the correct number of minutes read.
